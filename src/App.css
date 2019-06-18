@@ -1,0 +1,415 @@
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*
+**/
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url('assets/fonts/eot/IRANSansWeb_Black.eot');
+  src: url('assets/fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('assets/fonts/eot/IRANSansWeb_Bold.eot');
+  src: url('assets/fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('assets/fonts/eot/IRANSansWeb_Medium.eot');
+  src: url('assets/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('assets/fonts/eot/IRANSansWeb_Light.eot');
+  src: url('assets/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('assets/fonts/eot/IRANSansWeb_UltraLight.eot');
+  src: url('assets/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/eot/IRANSansWeb.eot');
+  src: url('assets/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('assets/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('assets/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('assets/fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+@media (max-width: 1280px) {
+  .app {
+    top: 1em!important;
+    left: 15em!important;
+    transform: scale(0.8) !important;
+  }
+  .upper{
+    top: 8em!important;
+    left: 7em!important;
+  }
+  .par{
+    transform: scale(0.5);
+  }
+}
+@media (max-width: 768px) {
+  .par{
+    display: none;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .app-logo{
+    top: -0.2em!important;
+    right: -0.8em!important;
+    transform: scale(0.5) !important;
+  }
+  .main{
+    top: 30em!important;
+    background-image: none!important;
+    z-index: 0!important;
+  }
+  .app-container{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    transform: translate(-50%,-50%);
+  }
+  .app {
+    top: -6em!important;
+    left: 2em!important;
+    transform: scale(0.3) !important;
+    animation-name: pup;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  .upper{
+    top: 3em!important;
+    left: -1.5em!important;
+  }
+  .info{
+    margin-top: 25em;
+    top: 50% !important;
+    left: 22% !important;
+    transform: translate(-16%,-50%) !important;
+  }
+}
+@media only screen
+and (min-device-width: 800px)
+and (max-device-width: 834px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .par{
+    /*display: none;*/
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .app-logo{
+    top: 0em!important;
+    right: 0em!important;
+    transform: scale(0.5) !important;
+  }
+  .main{
+    top: 30em!important;
+    background-image: none!important;
+  }
+  .app {
+    top: 50% !important;
+    left: 22% !important;
+    transform: translate(-16%,-50%) scale(0.5) !important;
+
+  }
+  .upper{
+    top: 50% !important;
+    left: -5% !important;
+  }
+  .info{
+    top: 50% !important;
+    left: 22% !important;
+    transform: translate(-16%,-50%) !important;
+  }
+}
+
+body{
+  direction: rtl;
+  text-align: right!important;
+  background: linear-gradient(-45deg,#51509C,#9742D7) !important;
+  color: #ffffff!important;
+  font-family: "IRANSans" !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.main{
+  height: 100vh;
+}
+
+@keyframes pup {
+  from{
+    margin-top: initial;
+  }
+  to{
+    margin-top: -1em;
+  }
+}
+
+@keyframes pup-pop {
+  from{
+    margin: initial;
+  }
+  to{
+    margin-top: -1.5em;
+  }
+
+}
+
+.app{
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 18px 35px;
+  width: 23em;
+  height: 587px;
+  position: absolute;
+  border-radius: 2em;
+  /*z-index: 500;*/
+  top: 10em;
+  left: 22em;
+  animation-name: pup ;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.under{
+
+}
+.upper{
+  height: 302px;
+  top: 20em;
+  left: 10em;
+  animation-name: pup-pop;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.main{
+  background-image: url("./assets/images/bg.svg");
+  background-repeat: no-repeat;
+  /*background-position: top left;*/
+  background-size: 100vh;
+}
+.par1{
+  position: absolute;
+  bottom: 0.2em;
+}
+.par2{
+  position: absolute;
+  left: 0.2em;
+  bottom: 0.2em;
+}
+.par3{
+  position: absolute;
+  right: 14em;
+  bottom: 6em;
+}
+.par4{
+  position: absolute;
+  right: 1em;
+  top: 4em;
+}
+.par5{
+  position: absolute;
+  left: 3em;
+  top: 2em;
+}
+.info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+p{
+  font-weight: 300;
+}
+.app-logo{
+  position: absolute;
+  transform: scale(0.6);
+  top: 2em;
+  right: 5em;
+}
+.input-container{
+  background: white;
+  border-radius: 3em;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 15px 30px;
+}
+.input-container>button{
+  background: transparent;
+  border: none;
+  transform: scale(0.7);
+  position: absolute;
+  left: 0;
+  padding: 15px;
+}
+.input-container>button:focus{
+  outline: none;
+}
+.input-container>input[type="email"]{
+  padding: 1em 3em 1em 3em;
+  border-radius: 3em;
+  border: none;
+  width: 100%;
+  letter-spacing: -1.1px;
+  font-weight: bold;
+}
+.input-container>input[type="email"]:focus{
+  outline: none;
+}
+.platform-logo{
+  position: absolute;
+  left: 0;
+}
+.platform-logo>img{
+  transform: scale(0.5);
+}
+.item{
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
+.itm-img{
+  width: 6em;
+  height: 6em;
+  border-radius: 2em;
+  margin: 2em 2em 0em 0em;
+  /*flex:1;*/
+}
+.itm-img.f{
+  background: linear-gradient(23deg,#FF5881,#FFADA3);
+  box-shadow: rgba(255, 133, 147, 0.50) 0px 5px 20px;
+}
+.itm-img.s{
+  background: linear-gradient(23deg,#67B0F6,#23CEDD);
+  box-shadow: rgba(67, 192, 233, 0.50) 0px 5px 20px;
+}
+.itm-img.t{
+  background: linear-gradient(23deg,#EB5D9C,#CD6BC0);
+  box-shadow: rgba(219, 100, 175, 0.50) 0px 5px 20px;
+}
+.itm-img.pop{
+  margin: 2em 0em 0em 2em;
+}
+.lazy{
+  background-color: #E1E8EE;
+  border-radius: 1em;
+  height: 0.8em;
+  margin-top: 1em!important;
+}
+.lazy.first{
+  margin-top: 3em!important;
+}
+.lazy.pop.first{
+  margin-top: 3em!important;
+}
+.lazy.pop{
+  margin: 1em 3em 0 0 !important;
+}
+.notification{
+  border-radius: 2em;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #000;
+  font-family: "IRANSans";
+  font-size: 1.2rem;
+  padding:0.5em 1.2em 0.5em 1.2em;
+  z-index: 1000;
+  transition: ease-in-out 0.4s;
+  animation: hide 2.6s ease-in-out;
+  animation-iteration-count: 1;
+}
+.success{
+  background: #69f0ae;
+  box-shadow: rgba(105, 240, 174, 0.36) 0px 18px 48px;
+}
+.error{
+  background: #ff5252;
+  box-shadow: rgba(240, 82, 71, 0.36) 0px 18px 48px;
+
+}
+@keyframes hide {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
